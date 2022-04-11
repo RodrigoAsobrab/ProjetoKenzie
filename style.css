@@ -1,0 +1,96 @@
+body, section, article, main, aside, footer, img, nav, ul, li, a, h1, h2, h3, div, p, figure, figcaption{
+
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 100%;
+    text-decoration: none;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+
+
+body{
+    background-color: black;    
+}
+
+
+.titulo_main{
+text-align: center;    
+margin: 40px;
+color: #ffff;
+
+}
+
+.section_icones{
+    height: 700px;
+    background-color: rgba(240, 248, 255, 0.082);
+    margin: 5% 15%;
+    border-radius: 8px;
+
+}
+
+.img_logotipo{ 
+    text-align: center;
+}
+
+.ul_container{             
+    display: flex;    
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.item1, .item2, .item3, .item3{
+    margin: 15px;
+
+}
+
+.avatar1_img{     
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;         
+}
+
+
+.avatar1_img:hover{    
+    width: 170px;
+    height: 170px;
+}
+
+.addAvatar_img{
+    border: solid #ffff;
+    border-radius: 8px;    
+    width: 160px;
+    height: 160px;
+    
+    
+}
+
+.button_ger_perfil{ 
+    width: 206px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: black;
+    color: #ffff;
+    border: solid ;    
+    text-align: center;
+}
+
+
+.button_ger_perfil:hover{          
+    background-color: #ffff;
+    color: black;
+    border: #ffff;
+    text-align: center;
+
+}
+
+.p{
+    color: #ffff;
+    text-align: center;
+}
+      
+   
